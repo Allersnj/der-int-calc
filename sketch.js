@@ -19,7 +19,6 @@ function draw() {
         set(i, 201, color2);
         set(201, i, color2);
         set((xaxis[i] * 20) + 201, (-(xaxis[i] * xaxis[i]) * 10) + 201, color1);
-        line((xaxis[i] * 20) + 201, (-(xaxis[i] * xaxis[i]) * 10) + 201, (xaxis[i+1] * 20) + 201, (-(xaxis[i+1] * xaxis[i+1]) * 10) + 201)
     }
     
     updatePixels();
